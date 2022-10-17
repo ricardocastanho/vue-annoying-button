@@ -8,6 +8,7 @@
   "keywords": [],
   "main": "./dist/annoying-button.umd.js",
   "module": "./dist/annoying-button.es.js",
+  "packageManager": "pnpm@7.1.0",
   "files": [
     "dist"
   ],
