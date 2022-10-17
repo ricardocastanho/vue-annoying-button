@@ -5,7 +5,13 @@
   "author": "Ricardo Castanho",
   "license": "MIT",
   "private": false,
-  "keywords": [],
+  "keywords": [
+    "vue",
+    "annoy",
+    "annoying",
+    "annoying-button",
+    "v-annoying-button"
+  ],
   "main": "./dist/annoying-button.umd.js",
   "module": "./dist/annoying-button.es.js",
   "packageManager": "pnpm@7.1.0",
