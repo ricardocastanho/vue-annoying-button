@@ -1,7 +1,7 @@
 <template>
   <button
     v-bind="$attrs"
-    :style="containerStyle"
+    :style="buttonStyle"
     @mouseover="toggle = !toggle"
   >
     <slot></slot>
@@ -18,7 +18,7 @@ const props = defineProps<{
 
 const toggle = ref(false)
 
-const containerStyle = computed(() => {
+const buttonStyle = computed(() => {
   if (!props.annoy) {
     return undefined
   }
