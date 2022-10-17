@@ -1,7 +1,7 @@
 {
   "name": "vue-annoying-button",
   "version": "0.0.1",
-  "description": "Annoying your users :D.",
+  "description": "Annoying Submit Button in Vue.",
   "author": "Ricardo Castanho",
   "license": "MIT",
   "private": false,
