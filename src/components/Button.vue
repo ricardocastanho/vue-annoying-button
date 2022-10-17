@@ -23,7 +23,7 @@ const containerStyle = computed(() => {
     return undefined
   }
   
-  const range = props.range || '20vh'
+  const range = props.range || '100%'
 
   return {
     transform: `translateX(${!toggle.value ? range : '0'})`,
