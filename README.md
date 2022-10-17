@@ -65,8 +65,9 @@ pnpm install vue-annoying-button
 ```ts
 // main.ts
 import { createApp } from 'vue'
-import App from './App.vue'
 import AnnoyingButton from 'vue-annoying-button'
+
+import App from './App.vue'
 
 createApp(App)
   .use(AnnoyingButton)
@@ -108,7 +109,7 @@ header {
 
 ```
 
-  Defining a range to button translate 
+  Defining a range to the button walk 
 ```js
 // App.vue
 <template>
@@ -173,8 +174,6 @@ Thanks to everyone who has contributed towards this project
     <img src="https://contrib.rocks/image?repo=ricardocastanho/vue-annoying-button" />
     </a> -->
 </div>
-
----
 
 
 
