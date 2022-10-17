@@ -2,7 +2,7 @@
   <button
     v-bind="$attrs"
     :style="buttonStyle"
-    @mouseover="toggle = !toggle"
+    @mouseover="setToggle"
   >
     <slot></slot>
   </button>
@@ -17,6 +17,10 @@ const props = defineProps<{
 }>()
 
 const toggle = ref(false)
+
+const setToggle = (): void => {
+  toggle.value = !toggle.value
+}
 
 const buttonStyle = computed(() => {
   if (!props.annoy) {
