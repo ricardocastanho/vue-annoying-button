@@ -5,6 +5,11 @@
   "author": "Ricardo Castanho",
   "license": "MIT",
   "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricardocastanho/vue-annoying-button.git"
+  },
+  "homepage": "git+https://github.com/ricardocastanho/vue-annoying-button.git",
   "keywords": [
     "vue",
     "annoy",
