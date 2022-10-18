@@ -78,7 +78,7 @@ createApp(App)
 
 // App.vue
 <script setup>
-import { VAnnoyingButton } from 'vue-annoying-button'
+import { v-annoying-button } from 'vue-annoying-button'
 </script>
 ```
 
@@ -90,9 +90,9 @@ import { VAnnoyingButton } from 'vue-annoying-button'
 // App.vue
 <template>
   <header>
-    <VAnnoyingButton :annoy="true" class="submit-button">
+    <v-annoying-button :annoy="true" class="submit-button">
       Annoy me
-    </VAnnoyingButton>
+    </v-annoying-button>
   </header>
 </template>
 
