@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "vue": "^3.2.38",
-    "vue-annoying-button": "0.0.1"
+    "vue-annoying-button": "1.0.0"
   },
   "devDependencies": {
     "@types/node": "^16.11.56",

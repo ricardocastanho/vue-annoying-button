@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.0.0](https://github.com/mokkapps/changelog-generator-demo/compare/v0.1.0...v1.0.0) (2022-10-18)
+
+
+### ⚠ BREAKING CHANGES
+
+* now it's not possible to import the VAnnoyingButton directly on your component
+
+* remove AnnoyingButton componente export ([e74fe3a](https://github.com/mokkapps/changelog-generator-demo/commits/e74fe3ad520e8169ec7692d030bb6c9479eca76a))
+
 ## 0.1.0 (2022-10-18)
 
 
