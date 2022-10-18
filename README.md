@@ -73,10 +73,20 @@ createApp(App)
   .use(AnnoyingButton)
   .mount('#app')
 
+
+/* Or get directly on your component */
+
+// App.vue
+<script setup>
+import { v-annoying-button } from 'vue-annoying-button'
+</script>
 ```
 
-3. Use it in your components
-```js
+3. Use it on your components
+```vue
+
+/* Using 100% range */
+
 // App.vue
 <template>
   <header>
@@ -104,13 +114,11 @@ header {
   border-radius: 4px;
   cursor: pointer;
 }
-
 </style>
 
-```
 
-  Defining a range to the button walk 
-```js
+/* Defining a especified range */
+
 // App.vue
 <template>
   <header>
@@ -138,9 +146,7 @@ header {
   border-radius: 4px;
   cursor: pointer;
 }
-
 </style>
-
 ```
 
 ---
