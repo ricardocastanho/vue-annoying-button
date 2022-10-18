@@ -65,12 +65,12 @@ pnpm install vue-annoying-button
 ```ts
 // main.ts
 import { createApp } from 'vue'
-import AnnoyingButton from 'vue-annoying-button'
+import AnnoyingPlugin from 'vue-annoying-button'
 
 import App from './App.vue'
 
 createApp(App)
-  .use(AnnoyingButton)
+  .use(AnnoyingPlugin)
   .mount('#app')
 
 
@@ -78,7 +78,7 @@ createApp(App)
 
 // App.vue
 <script setup>
-import { v-annoying-button } from 'vue-annoying-button'
+import { VAnnoyingButton } from 'vue-annoying-button'
 </script>
 ```
 
@@ -90,9 +90,9 @@ import { v-annoying-button } from 'vue-annoying-button'
 // App.vue
 <template>
   <header>
-    <v-annoying-button :annoy="true" class="submit-button">
+    <VAnnoyingButton :annoy="true" class="submit-button">
       Annoy me
-    </v-annoying-button>
+    </VAnnoyingButton>
   </header>
 </template>
 
