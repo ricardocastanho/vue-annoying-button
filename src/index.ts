@@ -8,6 +8,4 @@ const AnnoyingPlugin: Plugin = {
   }
 }
 
-export { AnnoyingButton as VAnnoyingButton }
-
 export default AnnoyingPlugin

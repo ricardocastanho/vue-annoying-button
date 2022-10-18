@@ -72,14 +72,6 @@ import App from './App.vue'
 createApp(App)
   .use(AnnoyingPlugin)
   .mount('#app')
-
-
-/* Or get directly on your component */
-
-// App.vue
-<script setup>
-import { v-annoying-button } from 'vue-annoying-button'
-</script>
 ```
 
 3. Use it on your components
