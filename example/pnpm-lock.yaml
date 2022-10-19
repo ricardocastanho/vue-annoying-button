@@ -8,12 +8,12 @@ specifiers:
   typescript: ~4.7.4
   vite: ^3.1.8
   vue: ^3.2.38
-  vue-annoying-button: 0.0.1
+  vue-annoying-button: 1.0.0
   vue-tsc: ^0.40.7
 
 dependencies:
   vue: 3.2.41
-  vue-annoying-button: 0.0.1_vue@3.2.41
+  vue-annoying-button: 1.0.0_vue@3.2.41
 
 devDependencies:
   '@types/node': 16.11.66
@@ -1070,8 +1070,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vue-annoying-button/0.0.1_vue@3.2.41:
-    resolution: {integrity: sha512-OvfDazsbN4xQj6dbOY6P05qNeAU2Qse4DQES/+g8jZNq+34c28WYrE6/JNodI9pqghrdK/ZL/A8DmgrAuMVjiA==}
+  /vue-annoying-button/1.0.0_vue@3.2.41:
+    resolution: {integrity: sha512-GMaTY7P4ZMlVCcagQLRZ9wl5VX+54OG9RkDZSS8r2sV9n+4VulkfpDmIJ9aCCLU5v2ZSkxU7W06ZDk5lOHs4AA==}
     peerDependencies:
       vue: 3.x
     dependencies:
