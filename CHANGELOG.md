@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/mokkapps/changelog-generator-demo/compare/v1.0.0...v1.1.0) (2022-10-19)
+
+
+### Features
+
+* add a login page example ([a8a5f7e](https://github.com/mokkapps/changelog-generator-demo/commits/a8a5f7ee417f19b980fb4537e9341b17d12fe823))
+
 ## [1.0.0](https://github.com/mokkapps/changelog-generator-demo/compare/v0.1.0...v1.0.0) (2022-10-18)
 
 
