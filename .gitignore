@@ -6,13 +6,13 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
-example/logs
-example/*.log
-example/npm-debug.log*
-example/yarn-debug.log*
-example/yarn-error.log*
-example/pnpm-debug.log*
-example/lerna-debug.log*
+demo/logs
+demo/*.log
+demo/npm-debug.log*
+demo/yarn-debug.log*
+demo/yarn-error.log*
+demo/pnpm-debug.log*
+demo/lerna-debug.log*
 
 node_modules
 .DS_Store
@@ -20,17 +20,17 @@ dist
 dist-ssr
 coverage
 *.local
-example/node_modules
-example/.DS_Store
-example/dist
-example/dist-ssr
-example/coverage
-example/*.local
+demo/node_modules
+demo/.DS_Store
+demo/dist
+demo/dist-ssr
+demo/coverage
+demo/*.local
 
 /cypress/videos/
 /cypress/screenshots/
-example/cypress/videos/
-example/cypress/screenshots/
+demo/cypress/videos/
+demo/cypress/screenshots/
 
 # Editor directories and files
 .vscode/*
@@ -41,11 +41,11 @@ example/cypress/screenshots/
 *.njsproj
 *.sln
 *.sw?
-example/.vscode/*
-!example/.vscode/extensions.json
-example/.idea
-example/*.suo
-example/*.ntvs*
-example/*.njsproj
-example/*.sln
-example/*.sw?
+demo/.vscode/*
+!demo/.vscode/extensions.json
+demo/.idea
+demo/*.suo
+demo/*.ntvs*
+demo/*.njsproj
+demo/*.sln
+demo/*.sw?

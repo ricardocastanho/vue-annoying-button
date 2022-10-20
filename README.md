@@ -61,7 +61,7 @@ Give a ⭐️ if you like this project and want to support it!
 pnpm install vue-annoying-button
 ```
 
-2. Register the annoying component
+2. Register the annoying plugin
 ```ts
 // main.ts
 import { createApp } from 'vue'
@@ -105,6 +105,8 @@ header {
 }
 </style>
 ```
+
+See [demo](./demo/) for more examples
 
 ---
 

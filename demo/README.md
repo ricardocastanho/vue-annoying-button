@@ -1,4 +1,4 @@
-# vue-annoying-button example
+# vue-annoying-button demo
 
 This template should help get you started with `vue-annoying-button`.
 
