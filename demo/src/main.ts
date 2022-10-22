@@ -1,6 +1,7 @@
 import { createApp } from 'vue'
-import App from './App.vue'
 import AnnoyingPlugin from 'vue-annoying-button'
+
+import App from './App.vue'
 
 createApp(App)
   .use(AnnoyingPlugin)

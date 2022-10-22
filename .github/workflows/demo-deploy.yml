@@ -1,0 +1,58 @@
+name: Deploy to github-pages
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  check-if-need-deploy:
+    runs-on: ubuntu-latest
+
+    outputs:
+      need_deploy: ${{ steps.check_file_changed.outputs.need_deploy }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
+
+      - name: Check if the demo has changed
+        shell: pwsh
+        id: check_file_changed
+        run: |
+          $diff = git diff --name-only HEAD^ HEAD
+
+          $SourceDiff = $diff | Where-Object { $_ -match '^demo/' }
+          $HasDiff = $SourceDiff.Length -gt 0
+
+          Write-Host "::set-output name=need_deploy::$HasDiff"
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: check-if-need-deploy
+    if: needs.check-if-need-deploy.outputs.need_deploy == 'True'
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
+          token: '${{ secrets.ACCESS_TOKEN }}'
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 7
+
+      - name: Setting up Node.js 16
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16.x
+          check-latest: true
+          cache: 'pnpm'
+    
+      - name: Deploy into github-pages
+        run: chmod +x deploy.sh && ./deploy.sh
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}

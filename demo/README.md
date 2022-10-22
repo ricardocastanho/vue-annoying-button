@@ -1,6 +1,6 @@
 # vue-annoying-button demo
 
-This template should help get you started with `vue-annoying-button`.
+This template should help get you started with `vue-annoying-button`!
 
 ## Project Setup
 

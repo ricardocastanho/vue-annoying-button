@@ -1,7 +1,7 @@
 <template>
   <form>
     <fieldset>
-      <h1>Login</h1>
+      <h1>Welcome</h1>
 
       <input type="text" name="email" placeholder="Your e-mail">
       
