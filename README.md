@@ -3,7 +3,7 @@
 
    <img src="https://media.giphy.com/media/tXL4FHPSnVJ0A/giphy.gif" width=200 />
 
-  <p>
+  <!-- <p>
 
    <a href="https://github.com/ricardocastanho/vue-annoying-button/graphs/Stars" alt="Stars">
         <img src="https://img.shields.io/github/stars/ricardocastanho/vue-annoying-button" /></a>
@@ -23,7 +23,7 @@
       <img alt="GitHub pull requests" src="https://img.shields.io/badge/version-0.1.0-blue?color=0088ff" />
     </a>
 
-   </p>
+   </p> -->
 </div>
 
 
@@ -33,23 +33,16 @@ You won't be able to submit the form until you satisfy your own conditions. Enjo
 ![Preview video of project](./content/preview.gif) -->
 
 
-<!-- ## :bulb: Live Project Link
-[Click here to play with **Annoying Submit Button**](https://annoyingsubmitbutton.netlify.app/) -->
+## :bulb: Live Project Link
+[Click here to play with **Annoying Submit Button**](https://ricardocastanho.github.io/vue-annoying-button/)
 
----
-
-## :writing_hand: Authors
+<!-- ## :writing_hand: Authors
 
 👤 **Ricardo Castanho**
 
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/castanhoricardo/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/castanhoricardo/) -->
 
 
----
-
-## :people_hugging: Show your support
-
-Give a ⭐️ if you like this project and want to support it!
 
 ---
 
